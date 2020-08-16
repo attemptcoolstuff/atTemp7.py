@@ -6,10 +6,17 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		7EAAC6CC24E9664E00F63BB2 /* atTemp7.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = atTemp7.py; sourceTree = "<group>"; };
+		7EAAC6CD24E9669700F63BB2 /* python */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = python; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		7E51B08824E88EC6005FA330 = {
 			isa = PBXGroup;
 			children = (
+				7EAAC6CC24E9664E00F63BB2 /* atTemp7.py */,
+				7EAAC6CD24E9669700F63BB2 /* python */,
 			);
 			sourceTree = "<group>";
 		};

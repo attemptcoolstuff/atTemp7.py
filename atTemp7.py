@@ -307,7 +307,7 @@ except TypeError:
                 print("Failed to Receive IntelUserCode, Please Enter IntelUserCode Manually")
                 sys.exit(0)
 # 5, Finally, Submit As If This is Done All on a Phone
-stdInfo_body = str("{\"user\":\"" + intelUserCode + "\",\"temperature\":\"1\",\"reportArea\":\"山东省青岛市市南区\",\"memo\":\"\"}""")
+stdInfo_body = str("{\"user\":\"" + intelUserCode + "\",\"temperature\":\"1\",\"reportArea\":\"校内\",\"memo\":\"\"}""")
 stdInfo_url = checkInTime_url
 stdInfo_headers = checkInTime_headers
 stdInfo_data = {
